@@ -1,0 +1,413 @@
+
+
+.banner{
+    /* height: 400px; */
+    /* background: #20bd35;
+    background: radial-gradient(circle, rgba(32, 189, 53, 1) 0%, rgba(204, 94, 138, 1) 98%); */
+}
+/* .banner h1{
+    font-family: "Playwrite DE LA Guides";
+    font-weight: 400;
+}
+.banner p{
+    font-family: "Roboto";
+}
+.banner a{
+    font-family: "Betania Patmos";
+} */
+
+
+
+
+/* .banner h1{
+    font-family: "Roboto";
+}
+.banner p {
+    font-family: "Valley Sans";
+}
+.banner a{
+    font-family: "Betania Patmos";
+} */
+/* 
+@font-face {
+    font-family: "Betania Patmos" ;
+    src: url(./fonts/Betania_Patmos/BetaniaPatmos-Regular.ttf);
+}
+@font-face {
+    font-family: "Valley Sans";
+    src: url(./fonts/Valley_Sans/static/ValleySans-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/static/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/static/Roboto-ExtraLight.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/static/Roboto-Light.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/static/Roboto_Condensed-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/static/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+.banner h1{
+    font-family: "Betania Patmos";
+}
+.banner p{
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.banner a{
+    font-family: "Valley Sans";
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+
+/* header css starts */
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 100px;
+}
+.menu .left-side{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu .left-side nav ul{
+    display: flex;
+    gap: 40px;
+}
+.menu .left-side img{
+    width: 175px;
+}
+.menu .left-side nav ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-family: "Manrope";
+}
+.menu .left-side nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.menu .right-side .btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu .right-side .btns a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.menu .right-side .btns .sign-up{
+    background-color: #4D77FF;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 10px;
+}
+
+/* Banner Section Css Start */
+
+.hero{
+    display: flex;
+    align-items: center;
+    background-image: url(./images/banner-bg.png);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.hero .banner-left-side{
+    margin-left: 100px;
+    width: 50%;
+}
+.hero .banner-left-side h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.hero .banner-left-side h1 span{
+    color: #4D77FF;
+}
+.hero .banner-left-side p{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #696969;
+    padding-right: 52px;
+}
+.hero .banner-left-side a{
+    margin-top: 26px;
+    padding: 16px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4D77FF;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+.hero .banner-right-side {
+    margin-right: 100px;
+    width: 50%;
+    text-align: right;
+}
+.hero .banner-right-side img{
+    width: 100%;
+    max-width: 500px;
+}
+
+/* fast-solutions CSS start */
+
+.fast-solutions{
+    margin: 100px;
+}
+.fast-solutions .top-contect{
+    text-align: center;
+}
+.fast-solutions .top-contect h2{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4D77FF;
+}
+.fast-solutions .top-contect h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+.fast-solutions .fast-solutions-boxes{
+    display: flex;
+    gap: 30px;
+}
+.fast-solutions .fast-solutions-boxes .box{
+    width: 25%;
+    margin-top: 50px;
+    border-top: 3px solid #4D77FF;
+    box-shadow: 0px 10px 40px 0px #1212121A;
+    padding: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fast-solutions .fast-solutions-boxes .box h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.fast-solutions .fast-solutions-boxes .box p{
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+/* our patient start */
+
+.our-patient{
+    margin: 50px 0;
+}
+.our-patient .our-patient-top-content{
+    text-align: center;
+}
+.our-patient .our-patient-top-content h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.our-patient .our-patient-top-content p{
+    margin-top: 11px;
+    font-size: 14px;
+    color: #696969;
+    font-weight: 400;
+}
+.our-patient .slider-left-side{
+    width: 50%;
+    margin-left: 100px;
+}
+.our-patient .slider-right-side{
+    width: 50%;
+}
+.our-patient .our-patient-slider{
+    display: flex;
+    align-items: center;
+    background-color: #EDF1FF;
+    margin-top: 50px;
+    padding-top: 80px;
+    margin-right:100px ;
+}
+.our-patient .slider-right-side p{
+    font-size: 25px;
+    margin-right: 79px;
+}
+.our-patient .slider-right-side .slider-bottom-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.our-patient .slider-right-side .slider-bottom-content h2{
+    font-size: 20px;
+}
+.our-patient .slider-right-side .slider-bottom-content p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #696969;
+}
+
+/* footer-menu css start */
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 100px;
+}
+.footer-menu .logo-content{
+    width: 35%;
+}
+.footer-menu .logo-content img{
+    margin-bottom: 12px;
+}
+.footer-menu .footer-links  h2{
+    margin-bottom: 16px;
+}
+.footer-menu .footer-links ul li{
+    margin-bottom: 10px;
+}
+.footer-menu .footer-links ul li a{
+    font-size: 14px;
+    color: black;
+}
+
+/* Responsive */
+
+@media(max-width:1650px){
+   .footer-menu{
+    gap: 10px;
+   }
+}
+@media(max-width:1280px){
+  .fast-solutions .fast-solutions-boxes{
+    gap: 10px;
+  }
+  .fast-solutions .fast-solutions-boxes .box{
+    padding: 20px;
+  }
+
+}
+@media(max-width:1024px){
+    .fast-solutions{
+        margin: 50px;
+    }
+    .fast-solutions .fast-solutions-boxes{
+        flex-wrap: wrap;
+    }
+    .fast-solutions .fast-solutions-boxes .box{
+        width: 49%;
+    }
+}
+@media(max-width:980px){
+    .footer-menu{
+        flex-wrap: wrap;
+    }
+   .menu .left-side nav{
+    display: none;
+   }
+   .menu .left-side nav ul{
+    flex-direction: column;
+    gap: 5px;
+   }
+   .menu .left-side nav ul li{
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+   }
+   .menu {
+    position: relative;
+    margin: 30px 30px;
+   }
+   .menu .left-side nav{
+    background-color: rgb(220, 203, 203);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+   }
+   .hero{
+    flex-direction: column;
+   }
+   .hero .banner-left-side p{
+    padding-right: 0;
+   }
+   .hero .banner-left-side{
+    margin-left: 0;
+    width: 90%;
+    text-align: center;
+    }
+    .hero .banner-right-side{
+    margin-right: 0;
+    width: 90%;
+    text-align: center;
+   }
+   .our-patient .our-patient-slider{
+    flex-direction: column;
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+   }
+   .our-patient .slider-left-side{
+    width: 100%;
+    margin-left: 0;
+    text-align: 100%;
+   }
+   .our-patient .slider-right-side{
+    width: 100%;
+   }
+}
+@media(max-width:768px){
+    .footer-menu{
+        margin: 20px;
+    }
+    .hero .banner-left-side h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .fast-solutions .fast-solutions-boxes .box{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media(max-width:560px){
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-menu .logo-content{
+        width: 100%;
+    }
+}
